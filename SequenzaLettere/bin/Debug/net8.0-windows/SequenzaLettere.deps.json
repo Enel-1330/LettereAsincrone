@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SequenzaLettere/1.0.0": {
+        "runtime": {
+          "SequenzaLettere.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SequenzaLettere/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
