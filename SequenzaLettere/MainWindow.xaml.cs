@@ -18,7 +18,7 @@ namespace SequenzaLettere
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent(); 
         }
 
         private char _letteraSorteggiata;
@@ -29,14 +29,14 @@ namespace SequenzaLettere
             int tmp = 0;
             while(true)
             {
-                tmp++;
                 if(tmp > 25)
                 {
                     tmp = 0;
                 }
-                await Task.Delay(150);
+                await Task.Delay(140);
                 _letteraSorteggiata = alfabeto[tmp];
                 lblLettere.Content = _letteraSorteggiata;
+                tmp++;
             }
         }
 
@@ -44,10 +44,15 @@ namespace SequenzaLettere
 
         private void btnSorteggia_Click(object sender, RoutedEventArgs e)
         {
-            giramentoLettere();
-            btnSorteggia.Content = "Sorteggia";
-            _frase += _letteraSorteggiata;
-            lblFrase.Content = _frase;
+            if(btnSorteggia.Content.ToString() == "Inizia")
+            {
+                btnSorteggia.Content = "Sorteggia";
+                giramentoLettere();
+            } else
+            {
+                _frase += _letteraSorteggiata;
+                txbFrase.Text = _frase;
+            }
         }
     }
 }

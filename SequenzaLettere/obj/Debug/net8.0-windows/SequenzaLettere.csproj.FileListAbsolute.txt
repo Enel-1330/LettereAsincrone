@@ -18,3 +18,4 @@ C:\Users\enrico.bagnolini\Desktop\SequenzaLettere\SequenzaLettere\obj\Debug\net8
 C:\Users\enrico.bagnolini\Desktop\SequenzaLettere\SequenzaLettere\obj\Debug\net8.0-windows\SequenzaLettere.pdb
 C:\Users\enrico.bagnolini\Desktop\SequenzaLettere\SequenzaLettere\obj\Debug\net8.0-windows\SequenzaLettere.genruntimeconfig.cache
 C:\Users\enrico.bagnolini\Desktop\SequenzaLettere\SequenzaLettere\obj\Debug\net8.0-windows\ref\SequenzaLettere.dll
+C:\Users\enrico.bagnolini\Desktop\SequenzaLettere\SequenzaLettere\obj\Debug\net8.0-windows\SequenzaLettere.sourcelink.json
